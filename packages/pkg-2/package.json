@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pkg-1": "../pkg-1"
+    "pkg-1": "workspace:^"
   }
 }

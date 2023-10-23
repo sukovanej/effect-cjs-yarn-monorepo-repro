@@ -1407,17 +1407,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkg-1@file:../pkg-1::locator=pkg-2%40workspace%3Apackages%2Fpkg-2":
-  version: 1.0.0
-  resolution: "pkg-1@file:../pkg-1#../pkg-1::hash=fe33a6&locator=pkg-2%40workspace%3Apackages%2Fpkg-2"
-  dependencies:
-    effect: "npm:^2.0.0-next.50"
-    fp-ts: "npm:^2.16.1"
-  checksum: fc78f383e4eb6095a4d16344d4ca737f4d34f31207ba4e4806630ffac8aa03feadef3bdc4938985f2f3d595cd3a5999f2f715f1735cb8a9533f93b587ca1db1c
-  languageName: node
-  linkType: hard
-
-"pkg-1@workspace:packages/pkg-1":
+"pkg-1@workspace:^, pkg-1@workspace:packages/pkg-1":
   version: 0.0.0-use.local
   resolution: "pkg-1@workspace:packages/pkg-1"
   dependencies:
@@ -1430,7 +1420,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "pkg-2@workspace:packages/pkg-2"
   dependencies:
-    pkg-1: ../pkg-1
+    pkg-1: "workspace:^"
   languageName: unknown
   linkType: soft
 
