@@ -1,0 +1,22 @@
+{
+  "name": "dual-hazard-repro",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "packageManager": "yarn@4.0.0",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "effect": "2.0.0-next.50",
+    "fp-ts": "^2.16.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}

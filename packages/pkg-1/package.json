@@ -1,0 +1,10 @@
+{
+  "name": "pkg-1",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "effect": "^2.0.0-next.50",
+    "fp-ts": "^2.16.1"
+  }
+}

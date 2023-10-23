@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "importHelpers": true,
+    "baseUrl": "src",
+    "sourceMap": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "lib": ["ESNext"],
+    "types": ["vitest/globals"],
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "references": [{ "path": "../pkg-1" }]
+}
+
